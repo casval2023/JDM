@@ -37,6 +37,7 @@ data = {
 }
 
 def main():
+    st.title('ジュニアダイエットマスター復習問題')
     score = 0
     for key, value in data.items():
         st.write(f"### {key}")

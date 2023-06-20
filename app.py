@@ -45,7 +45,7 @@ def main():
         if set(answers) == set(value["answers"]):
             score += 1
             st.write("正解です！")
-        else:
+        #else:
             #st.write("不正解です。")
             #st.write(f"正解は {value['answers']} です。")
     st.write(f"### スコア: {score}/{len(data)}")

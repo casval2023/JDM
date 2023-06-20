@@ -46,7 +46,7 @@ def main():
             score += 1
             st.write("正解です！")
         else:
-            st.write("不正解です。")
+            #st.write("不正解です。")
             #st.write(f"正解は {value['answers']} です。")
     st.write(f"### スコア: {score}/{len(data)}")
 

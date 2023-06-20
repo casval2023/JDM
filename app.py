@@ -50,6 +50,7 @@ def main():
             #st.write("不正解です。")
             #st.write(f"正解は {value['answers']} です。")
     st.write(f"### スコア: {score}/{len(data)}")
+    st.markdown(f"# 正答率は **{round(score * 100/ len(data))}%** です！")
 
 if __name__ == "__main__":
     main()
